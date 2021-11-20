@@ -1,0 +1,47 @@
+:root {
+    font-size: calc(16 * 100vw / 1366);
+}
+body {
+    background-color: #f5f8fa;
+    font-family: "Poppins", sans-serif !important;
+}
+.container-fluid {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+/* alert */
+.material-icons {
+    font-size: 2rem;
+}
+.isi-alert {
+    margin-left: 0.3rem;
+}
+/* card */
+.card {
+    width: 35%;
+    border: unset;
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+.card-body h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: center;
+}
+.row label,
+.col-sm-12 input {
+    font-weight: 600;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+}
+.login,
+.create,
+.regis {
+    background-color: #3554d1;
+    width: 100%;
+    color: #fff;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,47 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f8fa;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.rounded-10 {
+    border-radius: 10px;
+}
+
+.bg-primary {
+    background-color: #3554d1;
+}
+
+.btn-primary {
+    background-color: #3554d1;
+}
+
+.form-control:focus {
+    border-color: #3554d1 !important;
+    box-shadow: none;
+    outline: none 0 !important;
+}
+
+.btn-primary:hover {
+    background-color: #2f48a8;
+}
+
+.box {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.bg-logout {
+    background-color: rgba(242, 61, 61, 0.251);
+}
+
+.text-logout {
+    color: #f23d3d;
+}
+
+.btn-plus {
+    background: #3554d140;
+}
